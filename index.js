@@ -11,7 +11,7 @@ let newID = oldID + 10 ** 9;
 
 let ageIsValid = Number.isInteger(currentAge);
 
-let randomNumber = Math.floor(Math.random() * 20);
+const randomNumber = Math.random() * 20;
 
 const randomInteger = Math.floor(randomNumber);
 
